@@ -9,4 +9,4 @@ Within G2CRM, click "Help" in the main toolbar ribbon. Then click "Plugins".
 09/07/2021 \
 Download "StormDatabaseImport" & "StormDatabaseImportSTWAVE". \
 Within G2CRM, click "Help" in the main toolbar ribbon. Then click "Plugins". \
-Navigate to "import_storms". Delete and replace the out of date plugins with 
+Navigate to "import_storms". Delete and replace the out of date plugins.
