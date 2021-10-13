@@ -1,0 +1,17 @@
+{
+	"name": "SplitLargeCSV",
+	"version": "1.0",
+	"author": "Triet Nguyen",
+	"authorEmail": "triet.nguyen@usace.army.mil",
+	"pathToScript": "process_data/g2_split_large_csv.py",
+	"packageDirectory": "",
+	"dllDirectory": "",
+	"events": ["SplitLargeCSV"],
+    "interface": {
+        "icon": "plugin-icon.png",
+        "toolTip": "Split large CSV into multiple files",
+        "header": "Split CSV",
+        "ribbonTabItem": "Process Data",
+        "ribbonGroupBox": ""
+    }
+}

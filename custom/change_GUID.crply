@@ -1,0 +1,17 @@
+{
+	"name": "InputDBsChangeGUID",
+	"version": "1.0",
+	"author": "Triet Nguyen",
+	"authorEmail": "triet.nguyen@usace.army.mil",
+	"pathToScript": "database_configs/change_GUID.py",
+	"packageDirectory": "",
+	"dllDirectory": "",
+	"events": ["ChangeGuid"],
+    "interface": {
+        "icon": "plugin-icon.png",
+        "toolTip": "Change unique IDs for System, Storm, Asset, PlanAlternative databases",
+        "header": "Change GUID",
+        "ribbonTabItem": "Database Configs",
+        "ribbonGroupBox": ""
+    }
+}

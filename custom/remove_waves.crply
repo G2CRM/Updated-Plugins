@@ -1,0 +1,17 @@
+{
+	"name": "RemoveWaves",
+	"version": "1.0",
+	"author": "Triet Nguyen",
+	"authorEmail": "triet.nguyen@usace.army.mil",
+	"pathToScript": "database_configs/remove_waves.py",
+	"packageDirectory": "",
+	"dllDirectory": "",
+	"events": ["RemoveWaves"],
+    "interface": {
+        "icon": "plugin-icon.png",
+        "toolTip": "Set wave height data to 0",
+        "header": "Remove Waves",
+        "ribbonTabItem": "Database Configs",
+        "ribbonGroupBox": ""
+    }
+}
