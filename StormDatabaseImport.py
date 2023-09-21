@@ -248,7 +248,7 @@ class StormDatabaseImport(QObject):
                         logger.warning(f"'Storm Type' {stormTypeRaw} is not recognized, defaulting {stormName} to Tropical ('T')")
                         logger.debug(f"{stormTypeRaw} interpretted as Tropical ('T') for {stormName}")
                     try:
-                        self.ImportStorms(stormNumber, stormName, 0.0, stormType, 0,0,0,0,dateData[0], 0, True, self.mssTextId, datetime.datetime.now().year)
+                        self.ImportStorms(stormNumber, stormName, 0.0, stormType, 0,0,0,0,dateData[0], 0, True, self.mssTextId, datetime.now().year)
                     except Exception:
                         logger.error(f"Error encountered importing storm {stormName}", exc_info=True)
 
