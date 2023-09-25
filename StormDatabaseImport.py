@@ -44,7 +44,7 @@ class StormDatabaseImport(QObject):
                 return -1
         else:
             try:
-                return datetime.strptime(str(int(x)), '%Y%m%d%H%M')
+                return datetime.datetime.strptime(str(int(x)), '%Y%m%d%H%M')
             except:
                 logger.warning(f'Unable to parse {x} as datetime in format \%Y\%m\%d\%H\%M')
                 return x
